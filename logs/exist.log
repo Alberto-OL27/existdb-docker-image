@@ -1,0 +1,1054 @@
+2025-02-19 21:08:52,921 [main] INFO  (XmlLibraryChecker.java [check]:149) - Looking for a valid Parser...
+Checking for Xerces, found version Xerces-J 2.12.2-xml-schema-1.1
+OK!
+ 
+2025-02-19 21:08:52,958 [main] INFO  (XmlLibraryChecker.java [check]:171) - Looking for a valid Transformer...
+Checking for Saxon, found version 9.9.1.8
+OK!
+ 
+2025-02-19 21:08:52,959 [main] INFO  (XmlLibraryChecker.java [check]:183) - Looking for a valid Resolver...
+Checking for Resolver, found version XmlResolver 1.2
+OK!
+ 
+2025-02-19 21:08:52,963 [main] INFO  (XmlLibraryChecker.java [check]:189) - Using parser org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser 
+2025-02-19 21:08:52,970 [main] INFO  (XmlLibraryChecker.java [check]:190) - Using transformer org.apache.xalan.transformer.TransformerIdentityImpl 
+2025-02-19 21:08:52,971 [main] INFO  (JettyStart.java [run]:181) - Running with Java 1.8.0_332 [Oracle Corporation (OpenJDK 64-Bit Server VM) in /usr/lib/jvm/java-8-openjdk-amd64/jre] 
+2025-02-19 21:08:52,972 [main] INFO  (JettyStart.java [run]:188) - Approximate maximum amount of memory for JVM: 5 GB 
+2025-02-19 21:08:52,973 [main] INFO  (JettyStart.java [run]:189) - Number of processors available to JVM: 12 
+2025-02-19 21:08:52,973 [main] INFO  (JettyStart.java [run]:191) - Running as user 'root' 
+2025-02-19 21:08:52,974 [main] INFO  (JettyStart.java [run]:192) - [eXist Home : /exist] 
+2025-02-19 21:08:52,975 [main] INFO  (JettyStart.java [run]:193) - [eXist Version : 6.2.0] 
+2025-02-19 21:08:52,976 [main] INFO  (JettyStart.java [run]:194) - [eXist Build : 2023-02-04T22:42:29Z] 
+2025-02-19 21:08:52,976 [main] INFO  (JettyStart.java [run]:195) - [Git commit : c8fa4958b6d4a50bd0cba7f3e76a150226414187] 
+2025-02-19 21:08:52,976 [main] INFO  (JettyStart.java [run]:196) - [Git commit timestamp : 20230204223916] 
+2025-02-19 21:08:52,977 [main] INFO  (JettyStart.java [run]:198) - [Operating System : Linux 5.15.146.1-microsoft-standard-WSL2 amd64] 
+2025-02-19 21:08:52,977 [main] INFO  (JettyStart.java [run]:199) - [log4j.configurationFile : /exist/etc/log4j2.xml] 
+2025-02-19 21:08:52,985 [main] INFO  (Log.java [initialized]:170) - Logging initialized @585ms to org.eclipse.jetty.util.log.Slf4jLog 
+2025-02-19 21:08:52,994 [main] INFO  (JettyStart.java [run]:200) - [jetty Version: 9.4.50.v20221201] 
+2025-02-19 21:08:52,995 [main] INFO  (JettyStart.java [run]:201) - [jetty.home : /exist] 
+2025-02-19 21:08:52,995 [main] INFO  (JettyStart.java [run]:202) - [jetty.base : /exist] 
+2025-02-19 21:08:52,996 [main] INFO  (JettyStart.java [run]:203) - [jetty configuration : /exist/etc/jetty/standard.enabled-jetty-configs] 
+2025-02-19 21:08:53,003 [main] INFO  (Configuration.java [<init>]:192) - Reading configuration from file /exist/etc/conf.xml 
+2025-02-19 21:08:53,025 [main] WARN  (Configuration.java [getConfigAttributeValue]:1524) - Configuration value overridden by system property: org.exist.db-connection.cacheSize, with value: 256M 
+2025-02-19 21:08:53,028 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.security.BouncyCastleJceProviderStartupTrigger 
+2025-02-19 21:08:53,029 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.protocolhandler.URLStreamHandlerStartupTrigger 
+2025-02-19 21:08:53,030 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.extensions.exquery.restxq.impl.RestXqStartupTrigger 
+2025-02-19 21:08:53,031 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.repo.AutoDeploymentTrigger 
+2025-02-19 21:08:53,032 [main] WARN  (Configuration.java [getConfigAttributeValue]:1524) - Configuration value overridden by system property: org.exist.db-connection.pool.max, with value: 20 
+2025-02-19 21:08:53,171 [main] INFO  (Configuration.java [configureValidation]:1442) - Creating xmlresolver.org OASIS Catalog resolver 
+2025-02-19 21:08:53,182 [main] INFO  (Configuration.java [configureValidation]:1479) - Adding Catalog URI: file:///exist/etc/webapp//WEB-INF/catalog.xml 
+2025-02-19 21:08:53,194 [main] INFO  (GrammarPool.java [<init>]:54) - Initializing GrammarPool. 
+2025-02-19 21:08:53,196 [main] INFO  (JettyStart.java [run]:212) - Configuring eXist from /exist/etc/conf.xml 
+2025-02-19 21:08:53,202 [main] INFO  (BrokerPool.java [<init>]:414) - database instance 'exist' will wait  120,000 ms during shutdown 
+2025-02-19 21:08:53,203 [main] INFO  (BrokerPool.java [<init>]:417) - database instance 'exist' is enabled for recovery : true 
+2025-02-19 21:08:53,204 [main] INFO  (BrokerPool.java [<init>]:421) - database instance 'exist' will have between 1 and 20 brokers 
+2025-02-19 21:08:53,204 [main] INFO  (BrokerPool.java [<init>]:424) - database instance 'exist' will be synchronized every 120,000 ms 
+2025-02-19 21:08:53,214 [main] INFO  (LockManager.java [<init>]:141) - Configured LockManager with concurrencyLevel=24 use-path-locks-for-documents=false paths-multi-writer=false 
+2025-02-19 21:08:53,227 [main] INFO  (DefaultCacheManager.java [<init>]:152) - Cache settings: 262,144k; totalPages: 65,536; maxCacheSize: 58,982; cacheShrinkThreshold: 10,000 
+2025-02-19 21:08:53,264 [main] INFO  (XQueryPool.java [configure]:108) - QueryPool: size = 128; maxQueryStackSize = 64 
+2025-02-19 21:08:53,267 [main] INFO  (QuartzSchedulerImpl.java [getQuartzProperties]:143) - Successfully loaded Quartz Scheduler properties from: /exist/etc/quartz.properties 
+2025-02-19 21:08:53,368 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.ngram.NGramIndex as ngram-index 
+2025-02-19 21:08:53,498 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.lucene.LuceneIndex as lucene-index 
+2025-02-19 21:08:53,499 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.sort.SortIndex as sort-index 
+2025-02-19 21:08:53,506 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.range.RangeIndex as range-index 
+2025-02-19 21:08:53,507 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.storage.structural.NativeStructuralIndex as structural-index 
+2025-02-19 21:08:53,508 [main] INFO  (SyncTask.java [configure]:77) - Using DATA_DIR: /exist/etc/../data. Minimal disk space required for database to continue operations: 1024mb 
+2025-02-19 21:08:53,511 [main] INFO  (SyncTask.java [configure]:79) - Usable space on partition containing DATA_DIR: /exist/etc/../data: 975654mb 
+2025-02-19 21:08:53,626 [main] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 78,906K free 
+2025-02-19 21:08:53,628 [main] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2025-02-19 21:08:53,630 [main] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 0% (1 out of 256) Cache efficiency : 100% 
+2025-02-19 21:08:53,631 [main] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2025-02-19 21:08:53,633 [main] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 2% (1 out of 64) Cache efficiency : 100% 
+2025-02-19 21:08:53,634 [main] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 2% (1 out of 64) Cache efficiency : N/A 
+2025-02-19 21:08:53,635 [main] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2025-02-19 21:08:53,670 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/config.xml 
+2025-02-19 21:08:53,702 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/admin.xml 
+2025-02-19 21:08:53,718 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/admin.xml 
+2025-02-19 21:08:53,767 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/guest.xml 
+2025-02-19 21:08:53,777 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/guest.xml 
+2025-02-19 21:08:53,787 [main] INFO  (BlobStoreImplService.java [startSystem]:87) - Opened de-duplicating Blob Store v1. metadata=blob.dbx, store=blob/ 
+2025-02-19 21:08:53,789 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/plugins/config.xml 
+2025-02-19 21:08:53,868 [main] INFO  (BouncyCastleJceProviderStartupTrigger.java [execute]:50) - Registered JCE Security Provider: org.bouncycastle.jce.provider.BouncyCastleProvider 
+2025-02-19 21:08:53,870 [main] INFO  (URLStreamHandlerStartupTrigger.java [registerStreamHandlerFactory]:72) - Successfully registered eXistURLStreamHandlerFactory. 
+2025-02-19 21:08:54,353 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/packageservice.xml 
+2025-02-19 21:08:54,362 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/packageservice.xml 
+2025-02-19 21:08:54,367 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/packageservice.xml 
+2025-02-19 21:08:54,378 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/packageservice.xml 
+2025-02-19 21:08:58,359 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/eXide.xml 
+2025-02-19 21:08:58,363 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/eXide.xml 
+2025-02-19 21:08:58,368 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/eXide.xml 
+2025-02-19 21:08:58,374 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/eXide.xml 
+2025-02-19 21:09:04,005 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/monex.xml 
+2025-02-19 21:09:04,008 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/groups/monex.xml 
+2025-02-19 21:09:04,021 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/monex.xml 
+2025-02-19 21:09:04,025 [main] INFO  (Configurator.java [save]:1292) - Storing configuration /db/system/security/exist/accounts/monex.xml 
+2025-02-19 21:09:04,386 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-bytebufferpool.xml] 
+2025-02-19 21:09:04,418 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-threadpool.xml] 
+2025-02-19 21:09:04,428 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty.xml] 
+2025-02-19 21:09:04,460 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-gzip.xml] 
+2025-02-19 21:09:04,480 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-http.xml] 
+2025-02-19 21:09:04,503 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-jaas.xml] 
+2025-02-19 21:09:04,506 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-jmx.xml] 
+2025-02-19 21:09:04,523 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-requestlog.xml] 
+2025-02-19 21:09:04,530 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-ssl.xml] 
+2025-02-19 21:09:04,535 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-ssl-context.xml] 
+2025-02-19 21:09:04,550 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-https.xml] 
+2025-02-19 21:09:04,555 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-deploy.xml] 
+2025-02-19 21:09:04,576 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-annotations.xml] 
+2025-02-19 21:09:04,592 [main] DEBUG (JettyStart.java [startJetty]:465) - BrokerPoolsAndJetty.ShutdownHook hook registered 
+2025-02-19 21:09:04,594 [main] INFO  (JettyStart.java [startJetty]:478) - [Starting jetty component : org.eclipse.jetty.server.Server] 
+2025-02-19 21:09:04,595 [main] INFO  (JettyStart.java [lifeCycleStarting]:635) - Jetty server starting... 
+2025-02-19 21:09:04,601 [main] INFO  (Server.java [doStart]:375) - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 1.8.0_332-8u332-ga-1~deb9u1-b09 
+2025-02-19 21:09:04,628 [main] INFO  (RequestLogWriter.java [doStart]:201) - Opened /exist/logs/2025_02_19.request.log 
+2025-02-19 21:09:04,632 [main] INFO  (ScanningAppProvider.java [doStart]:128) - Deployment monitor [file:///exist/etc/jetty/webapps/] at interval 10 
+2025-02-19 21:09:04,807 [main] INFO  (AnnotationConfiguration.java [scanForAnnotations]:473) - Scanning elapsed time=73ms 
+2025-02-19 21:09:04,885 [main] INFO  (DefaultSessionIdManager.java [doStart]:334) - DefaultSessionIdManager workerName=node0 
+2025-02-19 21:09:04,886 [main] INFO  (DefaultSessionIdManager.java [doStart]:339) - No SessionScavenger set, using defaults 
+2025-02-19 21:09:04,888 [main] INFO  (HouseKeeper.java [startScavenging]:132) - node0 Scavenging every 600000ms 
+2025-02-19 21:09:04,924 [main] INFO  (AbstractExistHttpServlet.java [getOrCreateBrokerPool]:101) - Database already started. Skipping configuration ... 
+2025-02-19 21:09:04,925 [main] INFO  (AbstractExistHttpServlet.java [doGeneralExistServletConfig]:189) - Using default user guest for all unauthorized requests. 
+2025-02-19 21:09:04,932 [main] INFO  (XmlLibraryChecker.java [check]:149) - Looking for a valid Parser...
+Checking for Xerces, found version Xerces-J 2.12.2-xml-schema-1.1
+OK!
+ 
+2025-02-19 21:09:04,933 [main] INFO  (XmlLibraryChecker.java [check]:171) - Looking for a valid Transformer...
+Checking for Saxon, found version 9.9.1.8
+OK!
+ 
+2025-02-19 21:09:04,934 [main] INFO  (XmlLibraryChecker.java [check]:183) - Looking for a valid Resolver...
+Checking for Resolver, found version XmlResolver 1.2
+OK!
+ 
+2025-02-19 21:09:04,935 [main] INFO  (XmlLibraryChecker.java [check]:189) - Using parser org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser 
+2025-02-19 21:09:04,936 [main] INFO  (XmlLibraryChecker.java [check]:190) - Using transformer org.apache.xalan.transformer.TransformerIdentityImpl 
+2025-02-19 21:09:04,936 [main] INFO  (ContextHandler.java [doStart]:921) - Started eXist-db Open Source Native XML Database 
+2025-02-19 21:09:04,956 [main] INFO  (AnnotationConfiguration.java [scanForAnnotations]:473) - Scanning elapsed time=0ms 
+2025-02-19 21:09:04,961 [main] INFO  (ContextHandler.java [doStart]:921) - Started o.e.j.w.WebAppContext@53d9826f{eXist-db portal,/,file:///exist/etc/jetty/webapps/portal/,AVAILABLE}{/exist/etc/jetty/webapps/portal} 
+2025-02-19 21:09:04,982 [main] INFO  (AbstractConnector.java [doStart]:333) - Started ServerConnector@48904d5a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+2025-02-19 21:09:05,155 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@56846330(existdb,h=[localhost, exist-db test ssl certificate],a=[/127.0.0.1],w=[]) for Server@73613ae5[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 21:09:05,156 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@30db5536(root,h=[exist-db test root certificate],a=[],w=[]) for Server@73613ae5[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 21:09:05,157 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@45b32dfe(ca,h=[ca, exist-db test ca certificate],a=[],w=[]) for Server@73613ae5[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 21:09:05,248 [main] INFO  (AbstractConnector.java [doStart]:333) - Started ServerConnector@6015a4a5{SSL, (ssl, http/1.1)}{0.0.0.0:8443} 
+2025-02-19 21:09:05,262 [main] INFO  (Server.java [doStart]:415) - Started @12862ms 
+2025-02-19 21:09:05,263 [main] INFO  (JettyStart.java [lifeCycleStarted]:644) - Jetty server started. 
+2025-02-19 21:09:05,265 [main] INFO  (JettyStart.java [run]:288) - ----------------------------------------------------- 
+2025-02-19 21:09:05,265 [main] INFO  (JettyStart.java [run]:289) - Server has started, listening on: 
+2025-02-19 21:09:05,266 [main] INFO  (JettyStart.java [run]:291) - http://172.18.0.2:8080/ 
+2025-02-19 21:09:05,266 [main] INFO  (JettyStart.java [run]:291) - https://172.18.0.2:8443/ 
+2025-02-19 21:09:05,267 [main] INFO  (JettyStart.java [run]:294) - Configured contexts: 
+2025-02-19 21:09:05,267 [main] INFO  (JettyStart.java [run]:300) - /exist (eXist XML Database) 
+2025-02-19 21:09:05,268 [main] INFO  (JettyStart.java [run]:316) - /exist/iprange (IPrange filter) 
+2025-02-19 21:09:05,269 [main] INFO  (JettyStart.java [run]:300) - / (eXist-db portal) 
+2025-02-19 21:09:05,269 [main] INFO  (JettyStart.java [run]:316) - /iprange (IPrange filter) 
+2025-02-19 21:09:05,270 [main] INFO  (JettyStart.java [run]:324) - ----------------------------------------------------- 
+2025-02-19 21:09:12,405 [qtp1986001684-46] INFO  (TemporaryFileManager.java [<init>]:109) - Temporary folder is: /tmp/exist-db-temp-file-manager-2189858838308837209 
+2025-02-19 21:10:46,025 [qtp1986001684-45] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: user @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Account [user] not found
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:430) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:10:46,356 [qtp1986001684-48] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: user @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Account [user] not found
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:430) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:10:55,512 [global.BrokerPools.ShutdownHook] INFO  (BrokerPools.java [lambda$0]:70) - Executing shutdown thread 
+:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Account [user] not found
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:430) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:10:56,039 [db.exist.scheduler.quartz-worker-3] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 24,970K free 
+2025-02-19 21:10:56,039 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:10:56,040 [db.exist.scheduler.quartz-worker-3] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:10:56,041 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:10:56,041 [db.exist.scheduler.quartz-worker-3] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:10:56,041 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:10:56,042 [db.exist.scheduler.quartz-worker-3] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:11:02,987 [qtp1986001684-48] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: admin @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Wrong password for user [admin] 
+	at org.exist.security.internal.RealmImpl.authenticate(RealmImpl.java:286) ~[exist.uber.jar:6.2.0]
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:405) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:11:12,797 [qtp1986001684-48] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: ADMIN @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Account [ADMIN] not found
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:430) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:15:01,019 [db.exist.scheduler.quartz-worker-4] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 20,918K free 
+2025-02-19 21:15:01,021 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:15:01,022 [db.exist.scheduler.quartz-worker-4] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:15:01,023 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:15:01,024 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:15:01,025 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:15:01,026 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:17:03,524 [db.exist.scheduler.quartz-worker-1] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 41,664K free 
+2025-02-19 21:17:03,526 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:17:03,527 [db.exist.sche2025-02-19 21:17:03,580 [global.BrokerPools.ShutdownHook] INFO  (BrokerPools.java [lambda$0]:70) - Executing shutdown thread 
+ache efficiency : 100% 
+2025-02-19 21:17:03,528 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:17:03,529 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:17:03,530 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:17:03,531 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:21:08,520 [db.exist.scheduler.quartz-worker-2] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 29,079K free 
+2025-02-19 21:21:08,522 [db.exist.scheduler.quartz-worker-2] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:21:08,522 [db.exist.scheduler.quartz-worker-2] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:21:08,523 [db.exist.scheduler.quartz-worker-2] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:21:08,524 [db.exist.scheduler.quartz-worker-2] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 62025-02-19 21:21:08,713 [global.BrokerPools.ShutdownHook] INFO  (BrokerPools.java [lambda$0]:70) - Executing shutdown thread 
+660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:21:08,526 [db.exist.scheduler.quartz-worker-2] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:27:32,206 [qtp1986001684-64] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: admin @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Wrong password for user [admin] 
+	at org.exist.security.internal.RealmImpl.authenticate(RealmImpl.java:286) ~[exist.uber.jar:6.2.0]
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:405) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:27:34,257 [qtp1986001684-32] ERROR (XMLDBAuthenticate.java [eval]:142) - Unable to authenticate user: admin @ jar:file:/exist/lib/exist.uber.jar!/org/exist/xquery/modules/persistentlogin/login.xql [144:24] 
+org.exist.security.AuthenticationException: Wrong password for user [admin] 
+	at org.exist.security.internal.RealmImpl.authenticate(RealmImpl.java:286) ~[exist.uber.jar:6.2.0]
+	at org.exist.security.internal.SecurityManagerImpl.authenticate(SecurityManagerImpl.java:405) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.functions.xmldb.XMLDBAuthenticate.eval(XMLDBAuthenticate.java:140) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.BasicFunction.eval(BasicFunction.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.InternalFunctionCall.eval(InternalFunctionCall.java:62) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:110) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.UserDefinedFunction.eval(UserDefinedFunction.java:161) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicCardinalityCheck.eval(DynamicCardinalityCheck.java:73) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DynamicTypeCheck.eval(DynamicTypeCheck.java:60) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.evalFunction(FunctionCall.java:289) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.FunctionCall.eval(FunctionCall.java:207) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.LetExpr.eval(LetExpr.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:98) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.DebuggableExpression.eval(DebuggableExpression.java:58) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.ConditionalExpression.eval(ConditionalExpression.java:100) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.PathExpr.eval(PathExpr.java:280) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.AbstractExpression.eval(AbstractExpression.java:71) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:445) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:348) ~[exist.uber.jar:6.2.0]
+	at org.exist.xquery.XQuery.execute(XQuery.java:335) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.runQuery(XQueryURLRewrite.java:677) ~[exist.uber.jar:6.2.0]
+	at org.exist.http.urlrewrite.XQueryURLRewrite.service(XQueryURLRewrite.java:239) ~[exist.uber.jar:6.2.0]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1450) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:292) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:571) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:722) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[exist.uber.jar:6.2.0]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[exist.uber.jar:6.2.0]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+2025-02-19 21:29:18,515 [db.exist.scheduler.quartz-worker-4] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 26,207K free 
+2025-02-19 21:29:18,517 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:29:18,518 [db.exist.scheduler.quartz-worker-4] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:29:18,519 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:29:18,520 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:29:18,521 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:29:18,522 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:16,151 [qtp1986001684-48] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /dependencies.html 
+2025-02-19 21:33:16,152 [qtp1986001684-48] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/dependencies.html 
+2025-02-19 21:33:16,153 [qtp1986001684-48] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource: dependencies.html 
+2025-02-19 21:33:16,171 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /existdb-styles.html 
+2025-02-19 21:33:16,172 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/existdb-styles.html 
+2025-02-19 21:33:16,174 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource: existdb-styles.html 
+2025-02-19 21:33:16,181 [qtp1986001684-35] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /existdb-usermanager.html 
+2025-02-19 21:33:16,182 [qtp1986001684-35] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/existdb-usermanager.html 
+2025-02-19 21:33:16,183 [qtp1986001684-35] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource: existdb-usermanager.html 
+2025-02-19 21:33:16,339 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /existdb-usermanager-app.html 
+2025-02-19 21:33:16,340 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/existdb-usermanager-app.html 
+2025-02-19 21:33:16,341 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource: existdb-usermanager-app.html 
+2025-02-19 21:33:16,383 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/user/ 
+2025-02-19 21:33:16,383 [qtp1986001684-46] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/group/ 
+2025-02-19 21:33:16,383 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/user/ 
+2025-02-19 21:33:16,384 [qtp1986001684-46] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/group/ 
+2025-02-19 21:33:16,384 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:16,385 [qtp1986001684-46] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:23,523 [db.exist.scheduler.quartz-worker-3] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 25,023K free 
+2025-02-19 21:33:23,523 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:23,524 [db.exist.scheduler.quartz-worker-3] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:33:23,525 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:23,526 [db.exist.scheduler.quartz-worker-3] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:23,526 [db.exist.scheduler.quartz-worker-3] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:23,527 [db.exist.scheduler.quartz-worker-3] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:33:29,793 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/group/ 
+2025-02-19 21:33:29,794 [qtp1986001684-47] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/user/ 
+2025-02-19 21:33:29,794 [qtp1986001684-47] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/user/ 
+2025-02-19 21:33:29,794 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/group/ 
+2025-02-19 21:33:29,795 [qtp1986001684-47] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:29,795 [qtp1986001684-33] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:35,260 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/user/ 
+2025-02-19 21:33:35,260 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 229 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) exist path: /api/group/ 
+2025-02-19 21:33:35,260 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/user/ 
+2025-02-19 21:33:35,260 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 230 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) request URI: /exist/apps/dashboard/bower_components/existdb-usermanager/api/group/ 
+2025-02-19 21:33:35,261 [qtp1986001684-112] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:35,261 [qtp1986001684-100] INFO  (LogFunction.java [writeLog]:205) - (Line: 231 /db/apps/dashboard/bower_components/existdb-usermanager/controller.xql) resource:  
+2025-02-19 21:33:48,824 [qtp1986001684-112] INFO  (JMXServlet.java [obtainTokenFileReference]:269) - Token file:  /exist/data/jmxservlet.token 
+2025-02-19 21:33:48,830 [qtp1986001684-112] INFO  (JMXServlet.java [init]:212) - JMXservlet token: 2d90730a-ec3c-4721-9073-0aec3c6721a2 
+2025-02-19 21:37:28,527 [db.exist.scheduler.quartz-worker-4] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 31,748K free 
+2025-02-19 21:37:28,530 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:37:28,532 [db.exist.scheduler.quartz-worker-4] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:37:28,535 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:37:28,536 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:37:28,538 [db.exist.scheduler.quartz-worker-4] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:37:28,540 [db.exist.scheduler.quartz-worker-4] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:39:31,032 [db.exist.scheduler.quartz-worker-1] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 24,437K free 
+2025-02-19 21:39:31,035 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:39:31,037 [db.exist.scheduler.quartz-worker-1] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:39:31,039 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:39:31,041 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:39:31,044 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:39:31,046 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:41:54,935 [qtp1986001684-47] INFO  (AbstractExistHttpServlet.java [getOrCreateBrokerPool]:101) - Database already started. Skipping configuration ... 
+2025-02-19 21:41:54,937 [qtp1986001684-47] INFO  (AbstractExistHttpServlet.java [doGeneralExistServletConfig]:189) - Using default user guest for all unauthorized requests. 
+2025-02-19 21:41:54,938 [qtp1986001684-47] INFO  (XQueryServlet.java [init]:147) - encoding = UTF-8 
+2025-02-19 21:45:38,523 [db.exist.scheduler.quartz-worker-1] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 28,036K free 
+2025-02-19 21:45:38,524 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:45:38,526 [db.exist.scheduler.quartz-worker-1] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:45:38,527 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:45:38,529 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:45:38,531 [db.exist.scheduler.quartz-worker-1] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:45:38,532 [db.exist.scheduler.quartz-worker-1] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:49:43,525 [db.exist.scheduler.quartz-worker-2] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 19,952K free 
+2025-02-19 21:49:43,528 [db.exist.scheduler.quartz-worker-2] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 100% (64 out of 64) Cache efficiency : 100% 
+2025-02-19 21:49:43,530 [db.exist.scheduler.quartz-worker-2] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 100% (255 out of 256) Cache efficiency : 100% 
+2025-02-19 21:49:43,532 [db.exist.scheduler.quartz-worker-2] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 27% (17 out of 64) Cache efficiency : 100% 
+2025-02-19 21:49:43,534 [db.exist.scheduler.quartz-worker-2] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 61% (39 out of 64) Cache efficiency : 100% 
+2025-02-19 21:49:43,536 [db.exist.scheduler.quartz-worker-2] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 9% (6 out of 64) Cache efficiency : 100% 
+2025-02-19 21:49:43,539 [db.exist.scheduler.quartz-worker-2] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 5% (3 out of 64) Cache efficiency : 100% 
+2025-02-19 21:51:48,743 [global.BrokerPools.ShutdownHook] INFO  (BrokerPools.java [lambda$0]:70) - Executing shutdown thread 
+2025-02-19 21:51:48,745 [JettyShutdownThread] INFO  (JettyStart.java [lifeCycleStopping]:657) - Jetty server stopping... 
+2025-02-19 21:51:48,744 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (BrokerPool.java [shutdown]:1619) - Database is shutting down ... 
+2025-02-19 21:51:48,759 [JettyShutdownThread] INFO  (AbstractConnector.java [doStop]:383) - Stopped ServerConnector@48904d5a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+2025-02-19 21:51:48,766 [JettyShutdownThread] INFO  (AbstractConnector.java [doStop]:383) - Stopped ServerConnector@6015a4a5{SSL, (ssl, http/1.1)}{0.0.0.0:8443} 
+2025-02-19 21:51:48,766 [JettyShutdownThread] INFO  (HouseKeeper.java [stopScavenging]:149) - node0 Stopped scavenging 
+2025-02-19 21:51:48,778 [JettyShutdownThread] INFO  (ContextHandler.java [doStop]:1159) - Stopped o.e.j.w.WebAppContext@53d9826f{eXist-db portal,/,null,STOPPED}{/exist/etc/jetty/webapps/portal} 
+2025-02-19 21:51:49,081 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (Journal.java [shutdown]:733) - Shutting down Journal with checkpoint... 
+2025-02-19 21:51:49,084 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (FileLock.java [release]:188) - Deleting lock file: /exist/etc/../data/journal.lck 
+2025-02-19 21:51:49,092 [global.BrokerPoolsAndJetty.ShutdownHook] WARN  (NotificationService.java [shutdown]:107) - Expected 0 listeners at shutdown, but 22 listeners are still registered 
+2025-02-19 21:51:49,094 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (FileLock.java [release]:188) - Deleting lock file: /exist/etc/../data/dbx_dir.lck 
+2025-02-19 21:51:49,103 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (BrokerPool.java [shutdown]:1734) - shutdown complete ! 
+2025-02-19 21:51:49,105 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (JettyStart.java [shutdown]:572) - Database shutdown: stopping server in 1sec ... 
+2025-02-19 21:51:49,111 [JettyShutdownThread] INFO  (ContextHandler.java [doStop]:1159) - Stopped eXist-db Open Source Native XML Database 
+2025-02-19 21:51:49,117 [JettyShutdownThread] INFO  (JettyStart.java [lifeCycleStopped]:664) - Jetty server stopped 
+2025-02-19 22:04:49,048 [main] INFO  (XmlLibraryChecker.java [check]:149) - Looking for a valid Parser...
+Checking for Xerces, found version Xerces-J 2.12.2-xml-schema-1.1
+OK!
+ 
+2025-02-19 22:04:49,095 [main] INFO  (XmlLibraryChecker.java [check]:171) - Looking for a valid Transformer...
+Checking for Saxon, found version 9.9.1.8
+OK!
+ 
+2025-02-19 22:04:49,096 [main] INFO  (XmlLibraryChecker.java [check]:183) - Looking for a valid Resolver...
+Checking for Resolver, found version XmlResolver 1.2
+OK!
+ 
+2025-02-19 22:04:49,100 [main] INFO  (XmlLibraryChecker.java [check]:189) - Using parser org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser 
+2025-02-19 22:04:49,107 [main] INFO  (XmlLibraryChecker.java [check]:190) - Using transformer org.apache.xalan.transformer.TransformerIdentityImpl 
+2025-02-19 22:04:49,109 [main] INFO  (JettyStart.java [run]:181) - Running with Java 1.8.0_332 [Oracle Corporation (OpenJDK 64-Bit Server VM) in /usr/lib/jvm/java-8-openjdk-amd64/jre] 
+2025-02-19 22:04:49,110 [main] INFO  (JettyStart.java [run]:188) - Approximate maximum amount of memory for JVM: 5 GB 
+2025-02-19 22:04:49,111 [main] INFO  (JettyStart.java [run]:189) - Number of processors available to JVM: 12 
+2025-02-19 22:04:49,112 [main] INFO  (JettyStart.java [run]:191) - Running as user 'root' 
+2025-02-19 22:04:49,113 [main] INFO  (JettyStart.java [run]:192) - [eXist Home : /exist] 
+2025-02-19 22:04:49,114 [main] INFO  (JettyStart.java [run]:193) - [eXist Version : 6.2.0] 
+2025-02-19 22:04:49,115 [main] INFO  (JettyStart.java [run]:194) - [eXist Build : 2023-02-04T22:42:29Z] 
+2025-02-19 22:04:49,116 [main] INFO  (JettyStart.java [run]:195) - [Git commit : c8fa4958b6d4a50bd0cba7f3e76a150226414187] 
+2025-02-19 22:04:49,116 [main] INFO  (JettyStart.java [run]:196) - [Git commit timestamp : 20230204223916] 
+2025-02-19 22:04:49,117 [main] INFO  (JettyStart.java [run]:198) - [Operating System : Linux 5.15.146.1-microsoft-standard-WSL2 amd64] 
+2025-02-19 22:04:49,117 [main] INFO  (JettyStart.java [run]:199) - [log4j.configurationFile : /exist/etc/log4j2.xml] 
+2025-02-19 22:04:49,126 [main] INFO  (Log.java [initialized]:170) - Logging initialized @721ms to org.eclipse.jetty.util.log.Slf4jLog 
+2025-02-19 22:04:49,134 [main] INFO  (JettyStart.java [run]:200) - [jetty Version: 9.4.50.v20221201] 
+2025-02-19 22:04:49,135 [main] INFO  (JettyStart.java [run]:201) - [jetty.home : /exist] 
+2025-02-19 22:04:49,135 [main] INFO  (JettyStart.java [run]:202) - [jetty.base : /exist] 
+2025-02-19 22:04:49,135 [main] INFO  (JettyStart.java [run]:203) - [jetty configuration : /exist/etc/jetty/standard.enabled-jetty-configs] 
+2025-02-19 22:04:49,143 [main] INFO  (Configuration.java [<init>]:192) - Reading configuration from file /exist/etc/conf.xml 
+2025-02-19 22:04:49,166 [main] WARN  (Configuration.java [getConfigAttributeValue]:1524) - Configuration value overridden by system property: org.exist.db-connection.cacheSize, with value: 256M 
+2025-02-19 22:04:49,169 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.security.BouncyCastleJceProviderStartupTrigger 
+2025-02-19 22:04:49,170 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.protocolhandler.URLStreamHandlerStartupTrigger 
+2025-02-19 22:04:49,171 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.extensions.exquery.restxq.impl.RestXqStartupTrigger 
+2025-02-19 22:04:49,173 [main] INFO  (Configuration.java [configureStartup]:1274) - Registered StartupTrigger: org.exist.repo.AutoDeploymentTrigger 
+2025-02-19 22:04:49,174 [main] WARN  (Configuration.java [getConfigAttributeValue]:1524) - Configuration value overridden by system property: org.exist.db-connection.pool.max, with value: 20 
+2025-02-19 22:04:49,311 [main] INFO  (Configuration.java [configureValidation]:1442) - Creating xmlresolver.org OASIS Catalog resolver 
+2025-02-19 22:04:49,324 [main] INFO  (Configuration.java [configureValidation]:1479) - Adding Catalog URI: file:///exist/etc/webapp//WEB-INF/catalog.xml 
+2025-02-19 22:04:49,338 [main] INFO  (GrammarPool.java [<init>]:54) - Initializing GrammarPool. 
+2025-02-19 22:04:49,339 [main] INFO  (JettyStart.java [run]:212) - Configuring eXist from /exist/etc/conf.xml 
+2025-02-19 22:04:49,345 [main] INFO  (BrokerPool.java [<init>]:414) - database instance 'exist' will wait  120,000 ms during shutdown 
+2025-02-19 22:04:49,346 [main] INFO  (BrokerPool.java [<init>]:417) - database instance 'exist' is enabled for recovery : true 
+2025-02-19 22:04:49,346 [main] INFO  (BrokerPool.java [<init>]:421) - database instance 'exist' will have between 1 and 20 brokers 
+2025-02-19 22:04:49,347 [main] INFO  (BrokerPool.java [<init>]:424) - database instance 'exist' will be synchronized every 120,000 ms 
+2025-02-19 22:04:49,356 [main] INFO  (LockManager.java [<init>]:141) - Configured LockManager with concurrencyLevel=24 use-path-locks-for-documents=false paths-multi-writer=false 
+2025-02-19 22:04:49,367 [main] INFO  (DefaultCacheManager.java [<init>]:152) - Cache settings: 262,144k; totalPages: 65,536; maxCacheSize: 58,982; cacheShrinkThreshold: 10,000 
+2025-02-19 22:04:49,402 [main] INFO  (XQueryPool.java [configure]:108) - QueryPool: size = 128; maxQueryStackSize = 64 
+2025-02-19 22:04:49,404 [main] INFO  (QuartzSchedulerImpl.java [getQuartzProperties]:143) - Successfully loaded Quartz Scheduler properties from: /exist/etc/quartz.properties 
+2025-02-19 22:04:49,556 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.ngram.NGramIndex as ngram-index 
+2025-02-19 22:04:49,695 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.lucene.LuceneIndex as lucene-index 
+2025-02-19 22:04:49,698 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.sort.SortIndex as sort-index 
+2025-02-19 22:04:49,714 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.indexing.range.RangeIndex as range-index 
+2025-02-19 22:04:49,716 [main] INFO  (IndexManager.java [initIndex]:151) - Registered index org.exist.storage.structural.NativeStructuralIndex as structural-index 
+2025-02-19 22:04:49,718 [main] INFO  (SyncTask.java [configure]:77) - Using DATA_DIR: /exist/etc/../data. Minimal disk space required for database to continue operations: 1024mb 
+2025-02-19 22:04:49,722 [main] INFO  (SyncTask.java [configure]:79) - Usable space on partition containing DATA_DIR: /exist/etc/../data: 975553mb 
+2025-02-19 22:04:49,969 [main] INFO  (BlobStoreImplService.java [startSystem]:87) - Opened de-duplicating Blob Store v1. metadata=blob.dbx, store=blob/ 
+2025-02-19 22:04:50,045 [main] INFO  (NativeBroker.java [sync]:3756) - Memory: 124,928K total; 5,982,208K max; 71,711K free 
+2025-02-19 22:04:50,047 [main] INFO  (BTree.java [printStatistics]:2660) - dom.dbx INDEX Buffers occupation : 12% (8 out of 64) Cache efficiency : 100% 
+2025-02-19 22:04:50,048 [main] INFO  (DOMFile.java [printStatistics]:1414) - dom.dbx DATA Buffers occupation : 6% (16 out of 256) Cache efficiency : 99% 
+2025-02-19 22:04:50,050 [main] INFO  (BTree.java [printStatistics]:2660) - collections.dbx INDEX Buffers occupation : 11% (7 out of 64) Cache efficiency : 91% 
+2025-02-19 22:04:50,051 [main] INFO  (BFile.java [printStatistics]:406) - collections.dbx DATA Buffers occupation : 9% (6 out of 64) Cache efficiency : 84% 
+2025-02-19 22:04:50,052 [main] INFO  (BTree.java [printStatistics]:2660) - values.dbx INDEX Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2025-02-19 22:04:50,052 [main] INFO  (BFile.java [printStatistics]:406) - values.dbx DATA Buffers occupation : 0% (0 out of 64) Cache efficiency : N/A 
+2025-02-19 22:04:50,117 [main] INFO  (BouncyCastleJceProviderStartupTrigger.java [execute]:50) - Registered JCE Security Provider: org.bouncycastle.jce.provider.BouncyCastleProvider 
+2025-02-19 22:04:50,119 [main] INFO  (URLStreamHandlerStartupTrigger.java [registerStreamHandlerFactory]:72) - Successfully registered eXistURLStreamHandlerFactory. 
+2025-02-19 22:04:50,359 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-bytebufferpool.xml] 
+2025-02-19 22:04:50,381 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-threadpool.xml] 
+2025-02-19 22:04:50,391 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty.xml] 
+2025-02-19 22:04:50,454 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-gzip.xml] 
+2025-02-19 22:04:50,474 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-http.xml] 
+2025-02-19 22:04:50,496 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-jaas.xml] 
+2025-02-19 22:04:50,500 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-jmx.xml] 
+2025-02-19 22:04:50,527 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-requestlog.xml] 
+2025-02-19 22:04:50,533 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-ssl.xml] 
+2025-02-19 22:04:50,539 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-ssl-context.xml] 
+2025-02-19 22:04:50,552 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-https.xml] 
+2025-02-19 22:04:50,556 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-deploy.xml] 
+2025-02-19 22:04:50,567 [main] INFO  (JettyStart.java [run]:236) - [loading jetty configuration : /exist/etc/jetty/jetty-annotations.xml] 
+2025-02-19 22:04:50,580 [main] DEBUG (JettyStart.java [startJetty]:465) - BrokerPoolsAndJetty.ShutdownHook hook registered 
+2025-02-19 22:04:50,580 [main] INFO  (JettyStart.java [startJetty]:478) - [Starting jetty component : org.eclipse.jetty.server.Server] 
+2025-02-19 22:04:50,581 [main] INFO  (JettyStart.java [lifeCycleStarting]:635) - Jetty server starting... 
+2025-02-19 22:04:50,586 [main] INFO  (Server.java [doStart]:375) - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 1.8.0_332-8u332-ga-1~deb9u1-b09 
+2025-02-19 22:04:50,617 [main] INFO  (RequestLogWriter.java [doStart]:201) - Opened /exist/logs/2025_02_19.request.log 
+2025-02-19 22:04:50,620 [main] INFO  (ScanningAppProvider.java [doStart]:128) - Deployment monitor [file:///exist/etc/jetty/webapps/] at interval 10 
+2025-02-19 22:04:50,772 [main] INFO  (AnnotationConfiguration.java [scanForAnnotations]:473) - Scanning elapsed time=76ms 
+2025-02-19 22:04:50,850 [main] INFO  (DefaultSessionIdManager.java [doStart]:334) - DefaultSessionIdManager workerName=node0 
+2025-02-19 22:04:50,850 [main] INFO  (DefaultSessionIdManager.java [doStart]:339) - No SessionScavenger set, using defaults 
+2025-02-19 22:04:50,852 [main] INFO  (HouseKeeper.java [startScavenging]:132) - node0 Scavenging every 600000ms 
+2025-02-19 22:04:50,900 [main] INFO  (AbstractExistHttpServlet.java [getOrCreateBrokerPool]:101) - Database already started. Skipping configuration ... 
+2025-02-19 22:04:50,901 [main] INFO  (AbstractExistHttpServlet.java [doGeneralExistServletConfig]:189) - Using default user guest for all unauthorized requests. 
+2025-02-19 22:04:50,909 [main] INFO  (XmlLibraryChecker.java [check]:149) - Looking for a valid Parser...
+Checking for Xerces, found version Xerces-J 2.12.2-xml-schema-1.1
+OK!
+ 
+2025-02-19 22:04:50,911 [main] INFO  (XmlLibraryChecker.java [check]:171) - Looking for a valid Transformer...
+Checking for Saxon, found version 9.9.1.8
+OK!
+ 
+2025-02-19 22:04:50,912 [main] INFO  (XmlLibraryChecker.java [check]:183) - Looking for a valid Resolver...
+Checking for Resolver, found version XmlResolver 1.2
+OK!
+ 
+2025-02-19 22:04:50,914 [main] INFO  (XmlLibraryChecker.java [check]:189) - Using parser org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser 
+2025-02-19 22:04:50,915 [main] INFO  (XmlLibraryChecker.java [check]:190) - Using transformer org.apache.xalan.transformer.TransformerIdentityImpl 
+2025-02-19 22:04:50,916 [main] INFO  (ContextHandler.java [doStart]:921) - Started eXist-db Open Source Native XML Database 
+2025-02-19 22:04:50,941 [main] INFO  (AnnotationConfiguration.java [scanForAnnotations]:473) - Scanning elapsed time=0ms 
+2025-02-19 22:04:50,949 [main] INFO  (ContextHandler.java [doStart]:921) - Started o.e.j.w.WebAppContext@4beabeec{eXist-db portal,/,file:///exist/etc/jetty/webapps/portal/,AVAILABLE}{/exist/etc/jetty/webapps/portal} 
+2025-02-19 22:04:50,969 [main] INFO  (AbstractConnector.java [doStart]:333) - Started ServerConnector@408b87aa{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+2025-02-19 22:04:51,122 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@5c77ba8f(existdb,h=[localhost, exist-db test ssl certificate],a=[/127.0.0.1],w=[]) for Server@2436ea2f[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 22:04:51,123 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@1b1f5012(root,h=[exist-db test root certificate],a=[],w=[]) for Server@2436ea2f[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 22:04:51,124 [main] INFO  (SslContextFactory.java [load]:358) - x509=X509@7add323c(ca,h=[ca, exist-db test ca certificate],a=[],w=[]) for Server@2436ea2f[provider=null,keyStore=file:///exist/etc/jetty/keystore.p12,trustStore=file:///exist/etc/jetty/keystore.p12] 
+2025-02-19 22:04:51,203 [main] INFO  (AbstractConnector.java [doStart]:333) - Started ServerConnector@d56aaa6{SSL, (ssl, http/1.1)}{0.0.0.0:8443} 
+2025-02-19 22:04:51,204 [main] INFO  (Server.java [doStart]:415) - Started @2800ms 
+2025-02-19 22:04:51,205 [main] INFO  (JettyStart.java [lifeCycleStarted]:644) - Jetty server started. 
+2025-02-19 22:04:51,207 [main] INFO  (JettyStart.java [run]:288) - ----------------------------------------------------- 
+2025-02-19 22:04:51,208 [main] INFO  (JettyStart.java [run]:289) - Server has started, listening on: 
+2025-02-19 22:04:51,208 [main] INFO  (JettyStart.java [run]:291) - http://172.18.0.2:8080/ 
+2025-02-19 22:04:51,209 [main] INFO  (JettyStart.java [run]:291) - https://172.18.0.2:8443/ 
+2025-02-19 22:04:51,209 [main] INFO  (JettyStart.java [run]:294) - Configured contexts: 
+2025-02-19 22:04:51,210 [main] INFO  (JettyStart.java [run]:300) - /exist (eXist XML Database) 
+2025-02-19 22:04:51,212 [main] INFO  (JettyStart.java [run]:316) - /exist/iprange (IPrange filter) 
+2025-02-19 22:04:51,212 [main] INFO  (JettyStart.java [run]:300) - / (eXist-db portal) 
+2025-02-19 22:04:51,213 [main] INFO  (JettyStart.java [run]:316) - /iprange (IPrange filter) 
+2025-02-19 22:04:51,214 [main] INFO  (JettyStart.java [run]:324) - ----------------------------------------------------- 
+2025-02-19 22:05:29,552 [qtp806738808-31] INFO  (TemporaryFileManager.java [<init>]:109) - Temporary folder is: /tmp/exist-db-temp-file-manager-2068674308150169687 
+2025-02-19 22:06:34,130 [global.BrokerPools.ShutdownHook] INFO  (BrokerPools.java [lambda$0]:70) - Executing shutdown thread 
+2025-02-19 22:06:34,130 [JettyShutdownThread] INFO  (JettyStart.java [lifeCycleStopping]:657) - Jetty server stopping... 
+2025-02-19 22:06:34,131 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (BrokerPool.java [shutdown]:1619) - Database is shutting down ... 
+2025-02-19 22:06:34,136 [JettyShutdownThread] INFO  (AbstractConnector.java [doStop]:383) - Stopped ServerConnector@408b87aa{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+2025-02-19 22:06:34,139 [JettyShutdownThread] INFO  (AbstractConnector.java [doStop]:383) - Stopped ServerConnector@d56aaa6{SSL, (ssl, http/1.1)}{0.0.0.0:8443} 
+2025-02-19 22:06:34,140 [JettyShutdownThread] INFO  (HouseKeeper.java [stopScavenging]:149) - node0 Stopped scavenging 
+2025-02-19 22:06:34,144 [JettyShutdownThread] INFO  (ContextHandler.java [doStop]:1159) - Stopped o.e.j.w.WebAppContext@4beabeec{eXist-db portal,/,null,STOPPED}{/exist/etc/jetty/webapps/portal} 
+2025-02-19 22:06:34,589 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (Journal.java [shutdown]:733) - Shutting down Journal with checkpoint... 
+2025-02-19 22:06:34,590 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (FileLock.java [release]:188) - Deleting lock file: /exist/etc/../data/journal.lck 
+2025-02-19 22:06:34,591 [global.BrokerPoolsAndJetty.ShutdownHook] WARN  (NotificationService.java [shutdown]:107) - Expected 0 listeners at shutdown, but 0 listeners are still registered 
+2025-02-19 22:06:34,592 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (FileLock.java [release]:188) - Deleting lock file: /exist/etc/../data/dbx_dir.lck 
+2025-02-19 22:06:34,595 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (BrokerPool.java [shutdown]:1734) - shutdown complete ! 
+2025-02-19 22:06:34,596 [global.BrokerPoolsAndJetty.ShutdownHook] INFO  (JettyStart.java [shutdown]:572) - Database shutdown: stopping server in 1sec ... 
+2025-02-19 22:06:34,598 [JettyShutdownThread] INFO  (ContextHandler.java [doStop]:1159) - Stopped eXist-db Open Source Native XML Database 
+2025-02-19 22:06:34,602 [JettyShutdownThread] INFO  (JettyStart.java [lifeCycleStopped]:664) - Jetty server stopped 

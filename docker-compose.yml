@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  existdb:
+    image: existdb/existdb:6.2.0
+    container_name: existdb
+    restart: unless-stopped
+    ports:
+      - "9005:8080"
+    environment:
+      EXIST_ADMIN_PASSWORD: "L0mas2024" 
+    volumes:
+      - ./exist_data:/exist-data
+      - ./logs:/exist/logs
